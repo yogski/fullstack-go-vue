@@ -1,0 +1,6 @@
+# Makefile
+
+.PHONY: copy
+
+env:
+  cp .env.sample .env
